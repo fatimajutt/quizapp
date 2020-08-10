@@ -1,36 +1,59 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"/>
-   
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Quiz Application</title>
-    
-  </head> 
-   <body class="bg-dark">
-   <div class="container">
-     <p class="display-4 text-center text-light my-4">Quiz Application</p>
-      <div class="row justify-content-center border my-5 p-5">
-        <div class="col-lg-8 col-md-8 col-sm-12" id="ques">
-          <!--<h4 class="font-weight-bold text-light">Q:1 HTML stads for</h4>
-            <ol class="list list-group">
-            	<li class="option list-group-item my-2">Hyper Text Markup Language</li>
-            	<li class="option list-group-item my-2">High Text Market language</li>
-            	<li class="option list-group-item my-2">Hyper Text Market Language</li>
-            	<li class="option list-group-item my-2">High text markup lnguage</li>
-            </ol>-->
-        	
-        </div>
-        <div class="w-100"></div>
-        	<button type="submit" id="next"  onClick="next_ques()" class="btn btn-primary my-2 px-5">Next</button>
-      	
-      </div>
-   
-   </div>
-   
-   </body>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <h1>Quiz # 1</h1>
+    <div class="container">
+        <fieldset>
+            <h3>HTML stands for</h3>
+            <input type="radio" id="q1-a1" name="q1">Hyper Text Markup Language<br>
+            <input type="radio" id="q1-a2" name="q1">High Text Market language <br>
+            <input type="radio" id="q1-a3" name="q1">Hyper Text Market Language <br>
+            <input type="radio" id="q1-a4" name="q1">High text markup lnguagebr
+        </fieldset> <br> 
+        <fieldset>    
+            <h3>Pakistan best free learing Platform?</h3>
+            <input type="radio" id="q2-a1" name="q2">LUMS<br>
+            <input type="radio" id="q2-a2" name="q2">Comsats <br>
+            <input type="radio" id="q2-a3" name="q2">Saylani Mass IT Training<br>
+            <input type="radio" id="q2-a4" name="q2">UET
+        </fieldset> <br>
+        <fieldset>   
+            <h3>What is the best Programming language to learn in 2020?</h3>
+            <input type="radio" id="q3-a1" name="q3">JavaScript<br>
+            <input type="radio" id="q3-a2" name="q3">C++ <br>
+            <input type="radio" id="q3-a3" name="q3">PHP<br>
+            <input type="radio" id="q3-a4" name="q3">JAVA
+        </fieldset> <br>
+        <fieldset>   
+            <h3>What is the biggest problem in the world now?</h3>
+            <input type="radio" id="q4-a1" name="q4">Anti Virus<br>
+            <input type="radio" id="q4-a2" name="q4">Corona Virus <br>
+            <input type="radio" id="q4-a3" name="q4">World War<br>
+            <input type="radio" id="q4-a4" name="q4">Economy
+        </fieldset> <br>
+        <fieldset> 
+            <h3>what is 2*10</h3>
+            <input type="radio" id="q5-a1" name="q5">17<br>
+            <input type="radio" id="q5-a2" name="q5">15 <br>
+            <input type="radio" id="q5-a3" name="q5">20<br>
+            <input type="radio" id="q5-a4" name="q5">12
+        </fieldset> <br>
+        <fieldset>  
+            <h3>what is 4+25</h3>
+            <input type="radio" id="q6-a1" name="q6">23<br>
+            <input type="radio" id="q6-a2" name="q6">15 <br>
+            <input type="radio" id="q6-a3" name="q6">4 <br>
+            <input type="radio" id="q6-a4" name="q6">29                                                         
+        </fieldset>   <br>
+        <button onclick="check()">SUBMIT</button>     
+    </div>
+    <script src='app.js'></script>
+</body>
 </html>
- <script src="app.js"></script>
