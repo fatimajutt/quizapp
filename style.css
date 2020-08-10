@@ -1,8 +1,15 @@
-@charset "utf-8";
-/* CSS Document */
-li:hover{
-	background-color:cornflowerblue;
-	color: white;
-	cursor: pointer;
-	font-weight: bold;
+fieldset{
+    border-radius: 30px;
+    border-color: blue;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+button{
+height: 40px;
+width: 90px;
+border-color:blue ;
+border-radius: 12px;;
+margin-left: 600px;
 }
